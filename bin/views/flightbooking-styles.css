@@ -1,0 +1,57 @@
+.root {
+	-fx-background-image: url('background.jpg');
+	-fx-background-size: cover;
+}
+
+.button {
+	-fx-background-color: #4CAF50;
+	/* Green */
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.button:hover {
+	-fx-background-color: #45a049;
+	/* Darker green on hover */
+}
+
+.label {
+	-fx-text-fill: #333333;
+	/* Dark gray text */
+}
+
+.text-field {
+	-fx-background-color: #ffffff;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 3px;
+}
+
+.tab-pane {
+	-fx-background-color: #e6f3ff;
+	/* Light blue tab background */
+}
+
+.tab {
+	-fx-background-color: #b3d9ff;
+	/* Lighter blue for tabs */
+}
+
+.tab:selected {
+	-fx-background-color: #4d94ff;
+	/* Darker blue for selected tab */
+}
+
+.text-area {
+	-fx-background-color: #ffffff;
+	-fx-border-color: #cccccc;
+}
+
+.login-button {
+	-fx-background-color: #4CAF50;
+	/* Green */
+}
+
+.register-button {
+	-fx-background-color: #008CBA;
+	/* Blue */
+}
